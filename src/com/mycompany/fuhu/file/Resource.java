@@ -14,6 +14,9 @@ public class Resource {
         System.out.println(Resource.class.getResource("")); //Class文件所在路径
         System.out.println("haha5");
         System.out.println(Resource.class.getResource("/")); //package根路径
+        System.out.println("haha5.1");
+        System.out.println(Resource.class.getResource(".").getPath()); //Class文件所在路径
+        System.out.println(Resource.class.getResource("1.png").getPath()); //1.png文件所在路径
         System.out.println("haha6");
         System.out.println(new File("/").getAbsolutePath());
         System.out.println("haha7");
